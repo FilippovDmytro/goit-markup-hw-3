@@ -13,8 +13,8 @@
     />
     <link
       href="
-https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
-"
+    https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
+    "
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -22,94 +22,110 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
   <body>
     <!-- header -->
     <header class="page-header">
-      <nav class="page-nav">
-        <a class="link logo-img" href="./index.html">
-          Web<span class="studio">Studio</span></a
-        >
-        <ul class="list">
-          <li class="menu-item">
-            <a class="menu-link link" href="./index.html">Studio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="page-address">
-        <ul class="page-list list">
-          <li class="mail-item">
-            <a class="menu-mail link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="mail-item">
-            <a class="menu-mail link" href="tel:+110001111111">
-              +11 (000) 111-11-11
-            </a>
-          </li>
-        </ul>
-      </address>
+      <div class="container page-header-container">
+        <nav class="page-nav">
+          <a class="link logo-img" href="./index.html">
+            Web<span class="studio">Studio</span></a
+          >
+          <ul class="header-list list">
+            <li class="menu-item">
+              <a class="menu-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="page-address">
+          <ul class="page-list list">
+            <li class="mail-item">
+              <a class="menu-mail link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="mail-item">
+              <a class="menu-tel link" href="tel:+110001111111">
+                +11 (000) 111-11-11
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!-- hero -->
-      <section class="hero">
-        <h1 class="title">Effective Solutions for Your Business</h1>
-        <button type="button" class="btn-title">Order Service</button>
+      <section class=" section hero">
+        <div class="container hero-wrap">
+          <h1 class="title title-cont">
+            Effective Solutions for Your Business
+          </h1>
+          <button type="button" class="btn-title">Order Service</button>
+        </div>
       </section>
 
       <!--Technologies -->
-      <section class="techno">
-        <h2 hidden class="work">list of features</h2>
-        <ul class="list link work">
-          <li class="work-item">
-            <h3 class="work">Strategy</h3>
-            <p class="item-text">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li class="work-item">
-            <h3 class="work">Punctuality</h3>
-            <p class="item-text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li class="work-item">
-            <h3 class="work">Diligence</h3>
-            <p class="item-text">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li class="work-item">
-            <h3 class="work">Technologies</h3>
-            <p class="item-text">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+      <section class=" section techno">
+        <h2 hidden class="hidden-work">list of features</h2>
+        <div class="container">
+          <ul class="list link work-list">
+            <li class="work-item">
+              <h3 class="work">Strategy</h3>
+              <p class="item-text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+
+            <li class="work-item">
+              <h3 class="work">Punctuality</h3>
+              <p class="item-text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+
+            <li class="work-item">
+              <h3 class="work">Diligence</h3>
+              <p class="item-text">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+
+            <li class="work-item">
+              <h3 class="work">Technologies</h3>
+              <p class="item-text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- products -->
-      <section class="products">
+      <section class=" section products">
         <h2 class="main">What are we doing</h2>
-        <ul class="link list main-list">
-          <li>
-            <img src="./images/monitore.jpg" alt="monitore" width="360" />
-          </li>
-          <li><img src="./images/display.jpg" alt="display" width="360" /></li>
-          <li>
-            <img src="./images/smartfone.jpg" alt="smartfine" width="360" />
-          </li>
-        </ul>
+        <div class="container products-container">
+          <ul class="link list main-list">
+            <li>
+              <img src="./images/monitore.jpg" alt="monitore" width="360" />
+            </li>
+            <li>
+              <img src="./images/display.jpg" alt="display" width="360" />
+            </li>
+            <li>
+              <img src="./images/smartfone.jpg" alt="smartfine" width="360" />
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- team -->
-      <section class="our-team">
+      <section class="section our-team">
         <h2 class="team">Our Team</h2>
+        <div class="container team-container">
         <ul class="list link group">
           <li class="team-list">
             <img
@@ -118,8 +134,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
               width="264"
               class="mark-img"
             />
-            <h3 class="work">Mark Guerrero</h3>
+            <div class="team-name">
+            <h3 class="name">Mark Guerrero</h3>
             <p class="team-item">Product Designer</p>
+            </div>
           </li>
           <li class="team-list">
             <img
@@ -128,8 +146,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
               width="264"
               class="tom-img"
             />
-            <h3 class="work">Tom Ford</h3>
+            <div class="team-name">
+            <h3 class="name">Tom Ford</h3>
             <p class="team-item">Frontend Developer</p>
+            </div>
           </li>
           <li class="team-list">
             <img
@@ -138,8 +158,10 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
               width="264"
               class="camila-img"
             />
-            <h3 class="work">Camila Garcia</h3>
+            <div class="team-name">
+            <h3 class="name">Camila Garcia</h3>
             <p class="team-item">Marketing</p>
+            </div>
           </li>
           <li class="team-list">
             <img
@@ -148,21 +170,27 @@ https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
               width="264"
               class="daniel-img"
             />
-            <h3 class="work">Daniel Wilson</h3>
+            <div class="team-name">
+            <h3 class="name">Daniel Wilson</h3>
             <p class="team-item">UI Designer</p>
+            </div>
           </li>
         </ul>
       </section>
     </main>
     <!-- footer -->
     <footer class="footer">
+      <div class="container footer">
       <a class="link footer-img" href="./index.html">
         Web<span class="footer-studio">Studio</span></a
       >
-      <p class="micro-text footer-studio">
+      </div>
+      <div class="container text-bot">
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+      </div>
     </footer>
-  </body>
+  </body> 
 </html>
