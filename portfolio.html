@@ -13,153 +13,183 @@
     />
     <link
       href="
-https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
-"
+    https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css
+    "
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-- header -->
     <header class="page-header">
-      <nav class="page-nav">
-        <a class="link logo-img" href="./index.html">
-          Web<span class="studio">Studio</span></a
-        >
-        <ul class="list">
-          <li class="menu-item">
-            <a class="menu-link link" href="./index.html">Studio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="page-address">
-        <ul class="page-list list">
-          <li class="mail-item">
-            <a class="menu-mail link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="mail-item">
-            <a class="menu-mail link" href="tel:+110001111111">
-              +11 (000) 111-11-11
-            </a>
-          </li>
-        </ul>
-      </address>
+      <div class="container page-header-container">
+        <nav class="page-nav">
+          <a class="link logo-img" href="./index.html">
+            Web<span class="studio">Studio</span></a
+          >
+          <ul class="header-list list">
+            <li class="menu-item">
+              <a class="menu-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="page-address">
+          <ul class="page-list list">
+            <li class="mail-item">
+              <a class="menu-mail link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="mail-item">
+              <a class="menu-tel link" href="tel:+110001111111">
+                +11 (000) 111-11-11
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <section class="portfolio">
         <h1 hidden class="section">list of services</h1>
-        <ul class="btn list">
-          <li class="btn-item">
-            <button class="btn" type="button">All</button>
-          </li>
-          <li class="btn-item">
-            <button class="btn" type="button">Web Site</button>
-          </li>
-          <li class="btn-item">
-            <button class="btn" type="button">App</button>
-          </li>
-          <li class="btn-item">
-            <button class="btn" type="button">Design</button>
-          </li>
-          <li class="btn-item">
-            <button class="btn" type="button">Marketing</button>
-          </li>
-        </ul>
+        <div class="container btn-container">
+          <ul class="btn-list list">
+            <li class="btn-item">
+              <button class="btn" type="button">All</button>
+            </li>
+            <li class="btn-item">
+              <button class="btn" type="button">Web Site</button>
+            </li>
+            <li class="btn-item">
+              <button class="btn" type="button">App</button>
+            </li>
+            <li class="btn-item">
+              <button class="btn" type="button">Design</button>
+            </li>
+            <li class="btn-item">
+              <button class="btn" type="button">Marketing</button>
+            </li>
+          </ul>
+        </div>
 
-        <ul class="gallery-menu list">
-          <li class="cards">
-            <a href="#" class="link">
+        <div class="container fotos">
+
+        <ul class="card-set list">
+            <li class="cards">
+            <a href="#" class="link-item">
+              <div class="card-item">
               <img
                 src="./images/img8.jpg"
                 alt="Banking App Interface Concept"
                 width="360"
               />
-              <h2 class="work">Banking App Interface Concept</h2>
-              <p class="item-text">App</p></a
+              </div>
+              <h2 class="application">Banking App Interface Concept</h2>
+              <p class="application-text">App</p></a
             >
           </li>
           <li class="cards">
-            <a href="#" class="link">
-              <img src="./images/img7.jpg" alt="Cashless Payment" width="360" />
-              <h2 class="work">Cashless Payment</h2>
-              <p class="item-text">Marketing</p></a
+            <a href="#" class="link-item">
+              <div class="card-item">
+                <img src="./images/img7.jpg" alt="Cashless Payment" width="360" />
+              </div>
+              <h2 class="application">Cashless Payment</h2>
+              <p class="application-text">Marketing</p></a
             >
           </li>
           <li class="cards">
-            <a href="#" class="link">
-              <img src="./images/img6.jpg" alt="Meditation App" width="360" />
-              <h2 class="work">Meditation App</h2>
-              <p class="item-text">App</p></a
+            <a href="#" class="link-item">
+              <div class="card-item">
+                <img src="./images/img6.jpg" alt="Meditation App" width="360" />
+              </div>
+              <h2 class="application">Meditation App</h2>
+              <p class="application-text">App</p></a
             >
           </li>
           <li class="cards">
-            <a href="#" class="link">
-              <img src="./images/img5.jpg" alt="Taxi Service" width="360" />
-              <h2 class="work">Taxi Service</h2>
-              <p class="item-text">Marketing</p></a
+            <a href="#" class="link-item">
+              <div class="card-item">
+                <img src="./images/img5.jpg" alt="Taxi Service" width="360" />
+              </div>
+              <h2 class="application">Taxi Service</h2>
+              <p class="application-text">Marketing</p></a
             >
           </li>
           <li class="cards">
-            <a href="#" class="link">
-              <img
+            <a href="#" class="lin-item">
+              <div class="card-item">
+                <img
                 src="./images/img4.jpg"
                 alt="Screen Illustrations"
                 width="360"
               />
-              <h2 class="work">Screen Illustrations</h2>
-              <p class="item-text">Design</p></a
+              </div>
+              <h2 class="application">Screen Illustrations</h2>
+              <p class="application-text">Design</p></a
             >
           </li>
           <li class="cards">
-            <a href="#" class="link">
-              <img src="./images/img3.jpg" alt="Online Courses" width="360" />
-              <h2 class="work">Online Courses</h2>
-              <p class="item-text">Marketing</p></a
+            <a href="#" class="link-item">
+              <div class="card-item">
+                <img src="./images/img3.jpg" alt="Online Courses" width="360" />
+              </div>
+              <h2 class="application">Online Courses</h2>
+              <p class="application-text">Marketing</p></a
             >
           </li>
           <li class="cards">
-            <a href="#" class="link">
-              <img
+            <a href="#" class="link-item">
+              <div class="card-item">
+                <img
                 src="./images/img2.jpg"
                 alt="Instagram Stories Concept"
                 width="360"
               />
-              <h2 class="work">Instagram Stories Concept</h2>
-              <p class="item-text">Design</p></a
+              </div>
+              <h2 class="application">Instagram Stories Concept</h2>
+              <p class="application-text">Design</p></a
             >
           </li>
           <li class="cards">
-            <a href="#" class="link">
-              <img src="./images/img1.jpg" alt="Organic Food" width="360" />
-              <h2 class="work">Organic Food</h2>
-              <p class="item-text">Web Site</p></a
+            <a href="#" class="link-item">
+              <div class="card-item">
+                <img src="./images/img1.jpg" alt="Organic Food" width="360" />
+              </div>
+              <h2 class="application">Organic Food</h2>
+              <p class="application-text">Web Site</p></a
             >
           </li>
           <li class="cards">
-            <a href="#" class="link">
-              <img src="./images/img.jpg" alt="Fresh Coffee" width="360" />
-              <h2 class="work">Fresh Coffee</h2>
-              <p class="item-text">Web Site</p></a
+            <a href="#" class="link-item">
+              <div class="card-item">
+                <img src="./images/img.jpg" alt="Fresh Coffee" width="360" />
+              </div>
+              <h2 class="application">Fresh Coffee</h2>
+              <p class="application-text">Web Site</p></a
             >
           </li>
         </ul>
       </section>
     </main>
+    <!-- footer -->
     <footer class="footer">
-      <a class="link footer-img" href="./index.html">
-        Web<span class="footer-studio">Studio</span></a
-      >
-      <p class="micro-text footer-studio">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container footer">
+        <a class="link footer-img" href="./index.html">
+          Web<span class="footer-studio">Studio</span></a
+        >
+      </div>
+      <div class="container text-bot">
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
