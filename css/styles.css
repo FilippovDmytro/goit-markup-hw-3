@@ -325,6 +325,7 @@ body {
 
 /*========PORTFOLIO===========*/
 .portfolio {
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 
@@ -361,7 +362,6 @@ body {
 .btn-list {
   display: flex;
   justify-content: center;
-  margin-top: 90px;
   margin-bottom: 72px;
   gap: var(--card-set-gap);
 }
